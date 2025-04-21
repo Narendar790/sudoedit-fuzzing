@@ -1,0 +1,1 @@
+clang  -fsanitize=address,fuzzer   CMakeFiles/sudoedit_test.dir/fuzz_main.c.o CMakeFiles/sudoedit_test.dir/parse_args_vuln.c.o  -o sudoedit_test 

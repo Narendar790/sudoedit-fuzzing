@@ -1,0 +1,3 @@
+/workspaces/sudoedit-fuzzing/build/CMakeFiles/rebuild_cache.dir
+/workspaces/sudoedit-fuzzing/build/CMakeFiles/edit_cache.dir
+/workspaces/sudoedit-fuzzing/build/CMakeFiles/sudoedit_test.dir

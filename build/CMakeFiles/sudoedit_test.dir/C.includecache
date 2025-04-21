@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/sudoedit-fuzzing/fuzz_main.c
+stdint.h
+-
+stddef.h
+-
+string.h
+-
+stdlib.h
+-
+assert.h
+-
+
+/workspaces/sudoedit-fuzzing/parse_args_vuln.c
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+
